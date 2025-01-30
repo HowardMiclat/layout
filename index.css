@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .container {
+    background-color: #C7F0C7;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid #238000;
+  }
+  .container-top {
+    background-color: #ADD8E6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 5px solid #2000FF;
+    display: grid;
+    grid-template-areas: 'ct1 ct2 ct3';
+  }
+  .containertop1 {
+    grid-area: ct1;
+    background-color: #FCDAB9;
+    margin: 4px;
+    border: 5px solid #F78072;
+    height: 100px;
+  }
+  .containertop2 {
+    grid-area: ct2;
+    background-color: #FCDAB9;
+    padding: 10px;
+    margin: 4px;
+    border: 5px solid #F78072;
+    height: 100px;
+    display: grid;
+    grid-template-areas: 'ct2a ct2b';
+  }
+  .containertop3 {
+    grid-area: ct3;
+    background-color: #FCDAB9;
+    padding: 10px;
+    margin: 4px;
+    border: 5px solid #F78072;
+    height: 100px;
+  }
+  .containertop2a {
+    background-color: #FAC0CB;
+    border: 5px solid #F40105;
+    grid-area: ct2a;
+  }
+  .containertop2b {
+    background-color: #FAC0CB;
+    border: 5px solid #F40105;
+    grid-area: ct2b;
+  }
+  .container-middle {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-areas: 'cm1 cm2'
+                          'cm1 cm3';
+    grid-gap: 15px 10px;
+  }
+  .containermid1 {
+    margin-right: 4px;
+    background-color: #FABBBB;
+    border: 5px solid #A52B2A;
+    height: 300px;
+    grid-area: cm1;
+  }
+  .containermid2 {
+    border: 5px solid yellow;
+    background-color: #FABBBB;
+    border: 5px solid #A52B2A;
+    grid-area: cm2;
+  }
+  .containermid3 {
+    border: 5px solid yellow;
+    background-color: #FABBBB;
+    border: 5px solid #A52B2A;
+    grid-area: cm3;
+  }
+  .container-bottom {
+    background-color: #ADD8E6;
+    padding: 10px;
+    height: 120px;
+    border: 5px solid #2000FF;
+    display: grid;
+    grid-template-areas: 'cb1 cb1 cb2 cb3 cb4 cb4';
+  }
+  .containerbot1 {
+    background-color: #dfd9fd;
+    margin: 4px;
+    border: 5px solid #6A5ACD;
+    grid-area: cb1;
+  }
+  .containerbot2 {
+    background-color: #FCDAB9;
+    margin: 4px;
+    border: 5px solid #F78072;
+    grid-area: cb2;
+  }
+  .containerbot3 {
+    background-color: #FCDAB9;
+    margin: 4px;
+    border: 5px solid #F78072;
+    grid-area: cb3;
+  }
+  .containerbot4 {
+    background-color: #dfd9fd;
+    margin: 4px;
+    border: 5px solid #6A5ACD;
+    grid-area: cb4;
+  }
+  .fullname {
+    text-align: center;
+  }
+  .fullname > p {
+    font-size: 2em;
+  }
